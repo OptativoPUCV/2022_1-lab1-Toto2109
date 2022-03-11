@@ -101,3 +101,17 @@ exercises.c:43:4: error: 'totalIncompleto' undeclared (first use in this functio
     ^~~~~~~~~~~~~~~
 Compilation failed
 51aaa39
+vi., 11 de mar. de 2022  1:42:32: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'sumaNultimos':
+exercises.c:42:4: error: 'totalCompleto' undeclared (first use in this function)
+    totalCompleto = sumaN(a,n);
+    ^~~~~~~~~~~~~
+exercises.c:42:4: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:43:4: error: 'totalIncompleto' undeclared (first use in this function)
+    totalIncompleto = sumaN(a,n-m);
+    ^~~~~~~~~~~~~~~
+Compilation failed
+817b9d4

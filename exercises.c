@@ -41,7 +41,7 @@ void sumaNultimos(int a[], int n, int m, int * suma) {
 
    totalCompleto = sumaN(a,n);
    totalIncompleto = sumaN(a,n-m);
-   suma = totalCompleto -totalIncompleto;
+   (*suma) = totalCompleto -totalIncompleto;
 
 }
 
