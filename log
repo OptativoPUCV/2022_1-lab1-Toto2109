@@ -115,3 +115,9 @@ exercises.c:43:4: error: 'totalIncompleto' undeclared (first use in this functio
     ^~~~~~~~~~~~~~~
 Compilation failed
 817b9d4
+vi., 11 de mar. de 2022  1:42:54: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  2|5
+total_score: 20/70
+337503a
