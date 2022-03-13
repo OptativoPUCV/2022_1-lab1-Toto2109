@@ -255,3 +255,13 @@ do., 13 de mar. de 2022  2:30:11:
  tests:  4|3
 total_score: 40/70
 91af5e1
+do., 13 de mar. de 2022  2:32:47: 
+ exercises.c | 2 ++
+ 1 file changed, 2 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:103:11: error: incompatible types when assigning to type 'Vector {aka struct <anonymous>}' from type 'int'
+    *(v+i) = valor;
+           ^
+Compilation failed
+f8b4515
