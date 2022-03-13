@@ -203,3 +203,18 @@ do., 13 de mar. de 2022  2:14:06:
  tests:  2|5
 total_score: 20/70
 8299939
+do., 13 de mar. de 2022  2:15:18: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearPersona':
+exercises.c:66:22: error: 'sujetoprt' is a pointer; did you mean to use '->'?
+    strncpy (sujetoprt.nombre, nombre, 30);
+                      ^
+                      ->
+exercises.c:67:22: error: 'sujetoprt' is a pointer; did you mean to use '->'?
+    strncpy (sujetoprt.rut, rut, 11);
+                      ^
+                      ->
+Compilation failed
+dab0ee4
