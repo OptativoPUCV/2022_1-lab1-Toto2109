@@ -265,3 +265,13 @@ exercises.c:103:11: error: incompatible types when assigning to type 'Vector {ak
            ^
 Compilation failed
 f8b4515
+do., 13 de mar. de 2022  2:34:47: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'asignarValor':
+exercises.c:103:9: error: expected identifier before '(' token
+    v -> (datos+i) = valor;
+         ^
+Compilation failed
+394480c
