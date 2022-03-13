@@ -63,8 +63,8 @@ Persona* crearPersona(char nombre[], char rut[], int edad) {
 
    Persona sujeto;
    Persona* sujetoprt = &sujeto;
-   sujetoprt -> nombre = nombre;
-   sujetoprt -> rut = rut;
+   strncpy (sujetoprt -> nombre, nombre);
+   strncpy (sujetoprt -> rut, rut);
    sujetoprt -> edad = edad;
 
 

@@ -175,3 +175,25 @@ exercises.c:67:21: error: assignment to expression with array type
                      ^
 Compilation failed
 cd53fda
+do., 13 de mar. de 2022  2:13:33: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearPersona':
+exercises.c:66:4: error: too few arguments to function 'strncpy'
+    strncpy (sujetoprt -> nombre, nombre);
+    ^~~~~~~
+In file included from test.c:3:0:
+c:\mingw\include\string.h:86:40: note: declared here
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strncpy (char *, const char *, size_t);
+                                        ^~~~~~~
+In file included from test.c:5:0:
+exercises.c:67:4: error: too few arguments to function 'strncpy'
+    strncpy (sujetoprt -> rut, rut);
+    ^~~~~~~
+In file included from test.c:3:0:
+c:\mingw\include\string.h:86:40: note: declared here
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strncpy (char *, const char *, size_t);
+                                        ^~~~~~~
+Compilation failed
+2239616
