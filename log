@@ -230,3 +230,16 @@ do., 13 de mar. de 2022  2:19:14:
  tests:  2|5
 total_score: 20/70
 ae34375
+do., 13 de mar. de 2022  2:20:15: 
+ exercises.c | 3 +++
+ 1 file changed, 3 insertions(+)
+In file included from test.c:5:0:
+exercises.c: In function 'crearPersona':
+exercises.c:65:24: error: assignment to expression with array type
+    sujetoptr -> nombre = nombre;
+                        ^
+exercises.c:66:21: error: assignment to expression with array type
+    sujetoptr -> rut = rut;
+                     ^
+Compilation failed
+6315bdd
