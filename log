@@ -197,3 +197,9 @@ c:\mingw\include\string.h:86:40: note: declared here
                                         ^~~~~~~
 Compilation failed
 2239616
+do., 13 de mar. de 2022  2:14:06: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  2|5
+total_score: 20/70
+8299939
