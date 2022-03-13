@@ -275,3 +275,9 @@ exercises.c:103:9: error: expected identifier before '(' token
          ^
 Compilation failed
 394480c
+do., 13 de mar. de 2022  2:35:26: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  4|3
+total_score: 40/70
+e44929d
