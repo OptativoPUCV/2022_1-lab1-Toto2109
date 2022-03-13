@@ -132,3 +132,16 @@ exercises.c:64:13: error: unused variable 'sujeto' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 3bc8f94
+do., 13 de mar. de 2022  2:07:43: 
+ exercises.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearPersona':
+exercises.c:66:24: error: assignment to expression with array type
+    sujetoprt -> nombre = nombre;
+                        ^
+exercises.c:67:21: error: assignment to expression with array type
+    sujetoprt -> rut = rut;
+                     ^
+Compilation failed
+a04c0fc
