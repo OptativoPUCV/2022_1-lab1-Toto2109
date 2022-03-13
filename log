@@ -218,3 +218,9 @@ exercises.c:67:22: error: 'sujetoprt' is a pointer; did you mean to use '->'?
                       ->
 Compilation failed
 dab0ee4
+do., 13 de mar. de 2022  2:15:43: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  2|5
+total_score: 20/70
+6d00298
